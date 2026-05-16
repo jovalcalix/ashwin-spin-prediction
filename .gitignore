@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Video clips and pose data
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Local environment
+.env
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
